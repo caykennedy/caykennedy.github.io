@@ -1,0 +1,116 @@
+body
+{
+    background-color: whitesmoke;
+    color: #0D0D0D;
+    font-family: 'Helvetica';
+    font-style:normal;
+    padding: 1em;
+    margin: 0;
+}
+article
+{
+    background-color: #F2E7DC;
+    position: relative;
+    padding: 3em;
+}
+
+/*headings*/
+h1
+{
+    font-family: 'Franklin Gothic Demi Cond';
+    font-style: normal;
+    font-size: 60pt;
+    color:#027373
+}
+h2
+{
+    font-family: 'Franklin Gothic Demi Cond';
+    font-style: normal;
+    font-size: 48pt;
+    color:#038C7F;
+}
+h3
+{
+    font-family: 'Franklin Gothic Demi Cond';
+    font-style:normal;
+    font-size:36pt;
+    color:#038C7F
+}
+h4
+{
+    font-family: 'Franklin Gothic Medium';
+    font-style: italic;
+    font-size:24pt;
+    color:#669999;
+}
+h5
+{
+    font-family: 'Franklin Gothic Medium';
+    font-style:italic;
+    font-size: 21pt;
+    color:#669999;
+}
+h6
+{
+    font-family: 'Franklin Gothic Medium';
+    font-style:italic;
+    font-size: 18pt;
+    color:#669999;
+}
+
+/*Paragraphs, Links, and Lists*/
+p
+{
+    font-size: 12pt;
+    color:#0D0D0D;
+}
+
+ul
+{
+    list-style-type: circle;
+    border: 0.3em solid #0D0D0D;
+    padding: 3em;
+}
+ol
+{
+    border: 0.5em dotted #027373;
+    padding: 3em;
+}
+
+a
+{
+    color:#027373;
+}
+a:link,
+a:visited
+{
+    color:#669999;
+}
+a:hover
+{
+    color:#A9D9D0;
+}
+
+/*Borders and Buttons*/
+
+button
+{
+    color:#F2E7DC;
+    width: 252px;
+    height: 60px;
+    font-size: 12pt;
+    text-align: center;
+    border: 0;
+    background-image: url("./img/button.png");
+    background-color: #F2E7DC;
+}
+button:hover
+{
+    color:#0D0D0D;
+    background-image: url("./img/buttonHover.png");
+}
+button:visited
+{
+    color:#F2E7DC;
+    background-image: url("./img/buttonPressed.png");
+}
