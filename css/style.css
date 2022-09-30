@@ -174,8 +174,7 @@ nav a:hover
 }
 .Paragraphs
 {
-      padding: 1em;
-      float: left;
+    float: left;
 }
 
 .Photos 
@@ -185,6 +184,9 @@ nav a:hover
     padding-top: 3em;
     width: 445px;
     height:399px;
+}
+.dropdown dropbtn{
+    display:none;
 }
 
 img{
@@ -219,10 +221,28 @@ img{
     p{
         font-size:12pt;
     }
-    /*dropdown menu for nav bar*/
+    /*nav bar*/
     nav{
+        width:fit-content;
+        position:sticky;
+        top: 0;
+        background-color: #A9D9D0;
 
     }
+
+    nav ul{
+        display: inline-flex;
+        height: fit-content;
+
+    }
+
+    nav a{
+        font-size: 12px;
+        justify-content:center;
+
+    }
+  
+
     /*image scaling*/
     img{
         width:75%;
@@ -236,6 +256,11 @@ img{
     .grid
     {
         grid-template-columns: 1fr;
+        gap:2px;
+    }
+    .Paragraphs
+    {
+        width: 75%;
     }
 }
 
