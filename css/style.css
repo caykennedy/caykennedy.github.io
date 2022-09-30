@@ -77,11 +77,14 @@ p
 ul
 {
     list-style-type: circle;
-    border: 0.3em solid #0D0D0D;
+}
+
+border-1{
+    border: 0.5em double #0D0D0D;
     padding: 3em;
 }
-ol
-{
+
+border-2{
     border: 0.5em dotted #027373;
     padding: 3em;
 }
@@ -112,6 +115,7 @@ button
     border: 0;
     background-image: url("../img/button.png");
     background-color: #F2E7DC;
+    float:inline-start;
 }
 button:hover
 {
@@ -163,7 +167,7 @@ nav a:hover
 
 
 /*grid*/
-.grid 
+.gridleft 
 {
     margin: 0 auto;
     padding: 0 10px;
@@ -172,6 +176,18 @@ nav a:hover
     grid-template-columns: 1fr 2fr;
     gap: 20px;
 }
+
+.gridright
+{
+    margin: 0 auto;
+    padding: 0 10px;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    font-size: 18pt;
+}
+
 .Paragraphs
 {
     float: left;
@@ -249,15 +265,26 @@ img{
         height:auto;
     }
 
+    button{
+        margin-left:3em;
+    }
+
 }
 
 @media screen and (max-width:900px)
 {
-    .grid
+    .gridleft
     {
         grid-template-columns: 1fr;
         gap:2px;
     }
+
+    .gridright
+    {
+        grid-template-columns: 1fr;
+        gap:2px;
+    }
+
     .Paragraphs
     {
         width: 75%;
