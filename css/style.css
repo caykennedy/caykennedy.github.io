@@ -4,7 +4,7 @@ body
 {
     background-color: whitesmoke;
     color: #0D0D0D;
-    font-family: 'Helvetica';
+    font-family: 'Franklin Gothic';
     font-style:normal;
     padding: 1em;
     margin: 0;
@@ -51,6 +51,7 @@ h4
     font-style: italic;
     font-size:24pt;
     color:#669999;
+    text-align: center;
 }
 h5
 {
@@ -149,7 +150,7 @@ nav ul
 
 nav a
 {
-    font-family: 'Helvetica';
+    font-family: 'Franklin Gothic';
     font-style: normal;
     font-size:1.5em;
     color: #F2E7DC;
@@ -175,6 +176,7 @@ nav a:hover
     display: grid;
     grid-template-columns: 1fr 2fr;
     gap: 20px;
+    font-size:18pt;
 }
 
 .gridright
@@ -186,6 +188,63 @@ nav a:hover
     grid-template-columns: 2fr 1fr;
     gap: 20px;
     font-size: 18pt;
+}
+
+.gridmenu
+{
+    margin: 0 auto;
+    padding: 0 10px;
+    padding-left: 2.5em;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+    font-size: 18pt;
+}
+
+.gridmenu h3{
+    text-align: center;
+    color:#0D0D0D;
+}
+
+.gridmenu h4{
+    text-align:center;
+    color:#334343
+}
+
+.gridmenu p{
+    text-align:center;
+    color:#334343;
+}
+
+.menu1{
+    background-color: #669999;
+    text-align:center;
+    width: 15em;
+    height: 15em;
+}
+
+.menu2{
+    background-color: #A9D9D0;
+    text-align:center;
+    width: 15em;
+    height: 15em;
+}
+
+.menu1 hidden{
+    color:#669999;
+}
+
+.menu1 hidden:hover{
+    color:#A9D9D0;
+}
+
+.menu2 hidden{
+    color:#A9D9D0;
+}
+
+.menu2 hidden:hover{
+    color:#669999;
 }
 
 .Paragraphs
@@ -200,6 +259,7 @@ nav a:hover
     padding-top: 3em;
     width: 445px;
     height:399px;
+    padding-bottom: 3em;
 }
 .dropdown dropbtn{
     display:none;
@@ -209,6 +269,7 @@ img{
     width: 445px;
     height: auto;
 }
+
 
 
 
@@ -257,6 +318,16 @@ img{
         justify-content:center;
 
     }
+
+    .gridmenu p{
+        font-size:18pt;
+    }
+    .gridmenu h3{
+        font-size:36pt;
+    }
+    .gridmenu h4{
+        font-size:24pt;
+    }
   
 
     /*image scaling*/
@@ -285,9 +356,18 @@ img{
         gap:2px;
     }
 
+    .gridmenu
+    {
+        grid-template-columns: 1fr;
+        gap: 2em;
+        font-size: 18pt;
+        padding-left:0.1em;
+    }
+
     .Paragraphs
     {
         width: 75%;
+        font-size:12pt;
     }
 }
 
