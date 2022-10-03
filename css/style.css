@@ -90,6 +90,17 @@ border-2{
     padding: 3em;
 }
 
+hr-1{
+    border-top:0.5em double #0D0D0D;
+    display:block;
+    
+}
+
+hr-2{
+    border-top: 0.5em dotted #027373;
+    display:block;
+}
+
 a
 {
     color:#027373;
@@ -368,6 +379,10 @@ img{
     {
         width: 75%;
         font-size:12pt;
+    }
+
+    br{
+        display:none;
     }
 }
 
