@@ -281,6 +281,11 @@ img{
     height: auto;
 }
 
+topimages{
+    display: flex;
+    justify-content: space-evenly;
+}
+
 
 
 
