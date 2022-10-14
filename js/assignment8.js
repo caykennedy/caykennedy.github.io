@@ -7,7 +7,7 @@ function randomValueFromArray(array){
   return array[random];
 }
 
-let storyText = 'The time was 2 am. It was a crisp 94 fahrenheit outside, quite literally the opposite of a dark and stormy night. :insertx:, in all their glory, went for a (literal) hot girl walk. When they got to :inserty:, they :insertz:. Bob, the innocent bystander they are, watched the whole thing in horror. It was quite a scene — :insertx: weighs 300 pounds, and it was a hot night.'
+let storyText = 'The time was 2 am. It was a crisp 94 fahrenheit outside, quite literally the opposite of a dark and stormy night. :insertx:, in all their glory, went for a (literal) hot girl walk. When they got to :inserty:, they :insertz:. Bob, the innocent bystander they are, watched the whole thing in horror. It was quite a scene — :insertx: weighs 300 pounds, and they have needs.'
 let insertX = ['Phredeigh Himself', 'Desmond the Moon Bear', 'Steve the Stegosaurus', 'Walter White', 'Mike Wazowski', 'Shrek'];
 let insertY = ['the cereal lounge', 'Disneyland', 'the center of the earth', 'Los Pollos Hermanos', 'the shady park up the street', 'Shreks Swamp'];
 let insertZ = ['ate a bowl of cereal', 'jumped into the lake', 'broke down screaming crying and throwing up', 'snorted some smarties', 'hulk smashed the ground', 'stole candy straight out of the hands of some children', 'realized that god gives his silliest little battles to his goofiest little soldiers'];
