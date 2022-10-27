@@ -12,7 +12,7 @@ function humanResources(inString)
 
     for (let i = 0; i < hr[0].employees.length; i++)
     {
-        totalSalary += stoi(hr[0].employees[i].salary);
+        totalSalary += hr[0].employees[i].salary;
     }
 
     //problem 5
