@@ -2,7 +2,6 @@ fetch('./company.json')
 .then(response => response.text())
 .then(text => humanResources(text))
 
-console.log;
 
 function humanResources(inString)
 {
@@ -15,6 +14,8 @@ function humanResources(inString)
         totalSalary += hr[0].employees[i].salary;
     }
 
+    console.log(hr);
+
     //problem 5
     for (let i = 0; i < hr[0].employees.length; i++)
     {
@@ -24,4 +25,6 @@ function humanResources(inString)
             hr[0].employees[i].raiseEligible = "false";
         }
     }
+    
+    console.log(hr);
 }
