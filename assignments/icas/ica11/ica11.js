@@ -18,3 +18,5 @@ function displayQuote(quoteText)
     let qt = JSON.parse(quoteText);
     quoteArea.textContent = qt['message'];
 }
+
+getQuote();
