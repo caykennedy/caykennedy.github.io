@@ -4,15 +4,17 @@ qButton.addEventListener('click', getQuote);
 const endpoint = 'https://api.whatdoestrumpthink.com/api/v1/quotes/random';
 let quoteArea = document.querySelector('.quote-text');
 
-async function getQuote()
+function getQuote()
 {
 
-    let text = await fetch(endpoint);
-    let response = await text.text();
-    //.then(text=>text.text());
-    //.then()
-
-    quoteArea.textContent = response['message'];
-
+    let text = fetch(endpoint)
+    .then(response=>response.text())
+    .then(text=>displayQuote(text))
     
+}
+
+function displayQuote(quoteText)
+{
+    let qt = JSON.parse(quoteText);
+    quoteArea.textContent = qt['message'];
 }
