@@ -1,0 +1,485 @@
+@font-face {
+    font-family: "Marshmallow Script";
+    src: url(https://use.typekit.net/eld4bnh.css) format("truetype");
+}
+p.customfont { 
+    font-family: "Marshmallow Script";
+}
+
+
+body
+{
+    background-color: whitesmoke;
+    color: #0D0D0D;
+    font-family: 'Franklin Gothic';
+    font-style:normal;
+    padding: 1em;
+    margin: 0;
+}
+article
+{
+    background-color: #F2E7DC;
+    position: relative;
+    padding: 3em;
+}
+
+
+
+/*headings*/
+h1
+{
+    font-family: 'Marshmallow Script';
+    font-weight: 200;
+    font-style: normal;
+    font-size: 60pt;
+    color:#027373;
+    text-align: center;
+    
+}
+h2
+{
+    font-family: 'Marshmallow Script';
+    font-weight: 200;
+    font-style: normal;
+    font-size: 48pt;
+    color:#038C7F;
+}
+h3
+{
+    font-family: 'Marshmallow Script';
+    font-weight: 200;
+    font-style: normal;
+    font-size:36pt;
+    color:#038C7F
+}
+h4
+{
+    font-family: 'Franklin Gothic Medium';
+    font-style: italic;
+    font-size:24pt;
+    color:#669999;
+    text-align: center;
+}
+h5
+{
+    font-family: 'Franklin Gothic Medium';
+    font-style:italic;
+    font-size: 21pt;
+    color:#669999;
+}
+h6
+{
+    font-family: 'Franklin Gothic Medium';
+    font-style:italic;
+    font-size: 18pt;
+    color:#669999;
+}
+
+/*Paragraphs, Links, and Lists*/
+p
+{
+    font-size: 18pt;
+    color:#0D0D0D;
+}
+
+ul
+{
+    list-style-type: circle;
+}
+
+border-1{
+    border: 0.5em double #0D0D0D;
+    padding: 3em;
+}
+
+border-2{
+    border: 0.5em dotted #027373;
+    padding: 3em;
+}
+
+hr-1{
+    border-top:0.5em double #0D0D0D;
+    display:block;
+    
+}
+
+hr-2{
+    border-top: 0.5em dotted #027373;
+    display:block;
+}
+
+a
+{
+    color:#027373;
+}
+a:link,
+a:visited
+{
+    color:#669999;
+}
+a:hover
+{
+    color:#A9D9D0;
+}
+
+/*Borders and Buttons*/
+
+button
+{
+    color:#F2E7DC;
+    width: 252px;
+    height: 60px;
+    font-size: 12pt;
+    text-align: center;
+    border: 0;
+    background-image: url("../../../img/button.png");
+    background-color: #F2E7DC;
+    float:inline-start;
+}
+button:hover
+{
+    color:#0D0D0D;
+    background-image: url("../../../img/buttonHover.png");
+}
+button:visited
+{
+    color:#F2E7DC;
+    background-image: url("../../../img/buttonPressed.png");
+}
+
+/*nav bar*/
+
+nav 
+{
+    background-color: #027373;
+    position: sticky;
+    top:0;
+}
+
+nav ul 
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    border: none;
+}
+
+nav a
+{
+    font-family: 'Franklin Gothic';
+    font-style: normal;
+    font-size:1.5em;
+    color: #F2E7DC;
+    text-decoration: none;
+    padding: .5em 1em;
+    float: right;
+    text-align: center;
+}
+
+nav a:hover
+{
+    color:#027373;
+    background-color: #A9D9D0;
+}
+
+
+/*grid*/
+.gridleft 
+{
+    margin: 0 auto;
+    padding: 0 10px;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    font-size:18pt;
+}
+
+.gridright
+{
+    margin: 0 auto;
+    padding: 0 10px;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    font-size: 18pt;
+}
+
+.gridmenu
+{
+    margin: 0 auto;
+    padding: 0 10px;
+    padding-left: 2.5em;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+    font-size: 18pt;
+}
+
+.gridmenu h3{
+    text-align: center;
+    color:#0D0D0D;
+}
+
+.gridmenu h4{
+    text-align:center;
+    color:#334343
+}
+
+.gridmenu p{
+    text-align:center;
+    color:#334343;
+}
+
+.menu1{
+    background-color: #669999;
+    text-align:center;
+    width: 15em;
+    height: 15em;
+}
+
+.menu2{
+    background-color: #A9D9D0;
+    text-align:center;
+    width: 15em;
+    height: 15em;
+}
+
+.menu1 .hidden{
+    color:#669999;
+}
+
+.menu1 .hidden:hover{
+    color:#A9D9D0;
+}
+
+.menu2 .hidden{
+    color:#A9D9D0;
+}
+
+.menu2 .hidden:hover{
+    color:#669999;
+}
+
+.Paragraphs
+{
+    float: left;
+}
+
+.Photos 
+{
+    margin: 0;
+    padding:0;
+    padding-top: 3em;
+    width: 445px;
+    height:399px;
+    padding-bottom: 3em;
+}
+.dropdown dropbtn{
+    display:none;
+}
+
+img{
+    width: 445px;
+    height: auto;
+}
+
+.centered{
+    text-align:center;
+}
+
+.centered image{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*submission form*/
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width:100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+  
+/* Add a background color and some padding around the form */
+.container {
+border-radius: 5px;
+background-color: #f2f2f2;
+padding: 20px;
+}
+
+/*responsive design*/
+@media screen and (max-width: 500px)
+{
+    /*make fonts smaller*/
+    h1{
+        font-size:36pt;
+    }
+    h2{
+        font-size:24pt;
+    }
+    h3{
+        font-size: 21pt;
+    }
+    h4{
+        font-size:21pt;
+    }
+    h5{
+        font-size:18pt;
+    }
+    h6{
+        font-size:12pt;
+    }
+    p{
+        font-size:12pt;
+    }
+    /*nav bar*/
+    nav{
+        width:fit-content;
+        position:sticky;
+        top: 0;
+        background-color: #A9D9D0;
+
+    }
+
+    nav ul{
+        display: inline-flex;
+        height: fit-content;
+
+    }
+
+    nav a{
+        font-size: 12px;
+        justify-content:center;
+
+    }
+
+    .gridmenu p{
+        font-size:18pt;
+    }
+    .gridmenu h3{
+        font-size:36pt;
+    }
+    .gridmenu h4{
+        font-size:24pt;
+    }
+  
+
+    /*image scaling*/
+    img{
+        width:75%;
+        height:auto;
+    }
+
+    button{
+        margin-left:3em;
+    }
+
+}
+
+@media screen and (max-width:900px)
+{
+    .gridleft
+    {
+        grid-template-columns: 1fr;
+        gap:2px;
+    }
+
+    .gridright
+    {
+        grid-template-columns: 1fr;
+        gap:2px;
+    }
+
+    .gridmenu
+    {
+        grid-template-columns: 1fr;
+        gap: 2em;
+        font-size: 18pt;
+        padding-left:0.1em;
+    }
+
+    .Paragraphs
+    {
+        width: 75%;
+        font-size:12pt;
+    }
+
+
+}
+
+@media screen and (max-width: 1900px)
+{
+
+}
+
+.quoteArea
+{
+    background-color: white;
+    padding: 20px 50px;
+    min-height: 200px;
+    max-width: 500px;
+    width: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+}
+
+.words
+{
+    font-size: 30pt;
+}
+
+.image
+{
+    max-width: 100%;
+    padding-left: 27px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.confirm-button
+{
+    color:#F2E7DC;
+    width: 252px;
+    height: 60px;
+    font-size: 12pt;
+    text-align: center;
+    border: 0;
+    background-image: url("../../../img/button.png");
+    background-color: #F2E7DC;
+    float:inline-start;
+}
+.confirm-button:hover
+{
+    color:#0D0D0D;
+    background-image: url("../../../img/buttonHover.png");
+}
+
+.reset-button
+{
+    color:#F2E7DC;
+    width: 252px;
+    height: 60px;
+    font-size: 12pt;
+    text-align: center;
+    border: 0;
+    background-image: url("../../../img/button.png");
+    background-color: #F2E7DC;
+    float:inline-start;
+}
+.reset-button:hover
+{
+    color:#0D0D0D;
+    background-image: url("../../../img/buttonHover.png");
+}
