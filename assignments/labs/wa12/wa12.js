@@ -1,38 +1,125 @@
-const minusbutton = document.querySelector('.subtract-button').addEventListener('click', subtract);
-const plusbutton = document.querySelector('.add-button').addEventListener('click', add);
-const submitbutton = document.querySelector('.submit-button').addEventListener('click', submit);
-const resetbutton = document.querySelector('.reset-button').addEventListener('click', reset);
+const checks = document.getElementsByClassName('check');
 
 const output = document.querySelector('.output');
-let outputInt = parseInt(output.textContent);
-console.log(outputInt);
+const confirmButton= document.querySelector('.confirm-button');
+const resetButton = document.querySelector('.reset-button');
+const submitButton = document.querySelector('.submit');
 
-function subtract()
+resetButton.addEventListener('click', reset);
+confirmButton.addEventListener('click',confirm);
+submitButton.addEventListener('click', submit);
+
+
+function confirm()
 {
-    if (outputInt > 0)
+    let boxString = checkIfChecked();
+    if (output.textContent === '(waiting for input.)')
     {
-        outputInt -= 1;
-        output.textContent = outputInt;
+        output.textContent = '';
     }
 
-}
-
-function add()
-{
-    if (outputInt < 9999999999) 
+    if (boxString === '2581114')
     {
-        outputInt +=1;
-        output.textContent = outputInt;
+        output.textContent += '1';
+        resetBoxes();
     }
+    else if (boxString === '123678910131415')
+    {
+        output.textContent += '2';
+        resetBoxes();
+    }  
+    else if (boxString === '12368912131415') 
+    {
+        output.textContent += '3';
+        resetBoxes();
+    }
+    else if (boxString === '13467891215') 
+    {
+        output.textContent += '4';
+        resetBoxes();
+    }
+    else if (boxString === '123478912131415') 
+    {
+        output.textContent += '5';
+        resetBoxes();
+    }
+    else if (boxString === '12347891012131415') 
+    {
+        output.textContent += '6';
+        resetBoxes();
+    }
+    else if (boxString === '123691215') 
+    {
+        output.textContent += '7';
+        resetBoxes();
+    }
+    else if (boxString === '123467891012131415') 
+    {
+        output.textContent += '8';
+        resetBoxes();
+    }
+    else if (boxString === '1234678912131415') 
+    {
+        output.textContent += '9';
+        resetBoxes();
+    }
+    else if (boxString === '12346791012131415') 
+    {
+        output.textContent += '0';
+        resetBoxes();
+    }
+    else
+    {
+        alert('Thats not a valid number!');
+        reset();
+    }
+    
 }
 
 function reset()
 {
-    outputInt = 0;
-    output.textContent = outputInt;
+    resetBoxes();
+    output.textContent = '(waiting for input.)';
+}
+
+function resetBoxes()
+{
+    for (let i = 0; i < 15; i++)
+    {
+        if (checks.item(i).checked)
+        {
+            checks.item(i).checked = false;
+        }
+    }
 }
 
 function submit()
 {
-    alert(output.textContent);
+    if (output.textContent != '(waiting for input.)')
+    {
+        alert(output.textContent);
+    }
+    else
+    {
+        alert('Thats not your number.');
+    }
+    reset();
+    
+}
+
+function checkIfChecked()
+{
+    let boxString = '';
+    for (let i = 0; i < 15; i++)
+    {
+        if (checks.item(i).checked)
+        {
+            console.log(checks.item(i).checked);
+            let num = i+1;
+            console.log(num);
+            boxString += num;
+        }
+    }
+    console.log(boxString);
+    return boxString;
 }
