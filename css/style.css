@@ -37,6 +37,7 @@ h1
     text-align: center;
     
 }
+
 h2
 {
     font-family: hegante, sans-serif;
@@ -492,4 +493,13 @@ padding: 20px;
 {
     color:#0D0D0D;
     background-image: url("../img/buttonHover.png");
+}
+
+.datingArea{
+    width:75vw;
+    height:45vw;
+    background-color: whitesmoke;
+    margin-left: auto;
+    margin-right: auto;
+
 }
