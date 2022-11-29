@@ -1,8 +1,15 @@
+
+@font-face{
+    font-family:'Franklin Gothic Medium';
+    src:url(./fonts/franklinGothic/FRAMD.TTF);
+}
+
+
 body
 {
     background-color: whitesmoke;
     color: #0D0D0D;
-    font-family: 'Franklin Gothic';
+    font-family: 'Franklin Gothic Medium';
     font-style:normal;
     padding: 1em;
     margin: 0;
@@ -19,9 +26,12 @@ article
 /*headings*/
 h1
 {
-    font-family: 'Abril Fatface';
-    font-weight: 200;
+    font-family: hegante, sans-serif;
+    font-weight: 900;
     font-style: normal;
+    /* font-family: 'Marshmallow Script';
+    font-weight: 200;
+    font-style: normal; */
     font-size: 60pt;
     color:#027373;
     text-align: center;
@@ -29,17 +39,23 @@ h1
 }
 h2
 {
-    font-family: 'Abril Fatface';
-    font-weight: 200;
+    font-family: hegante, sans-serif;
+    font-weight: 900;
     font-style: normal;
+    /* font-family: 'Marshmallow Script';
+    font-weight: 200;
+    font-style: normal; */
     font-size: 48pt;
     color:#038C7F;
 }
 h3
 {
-    font-family: 'Abril Fatface';
-    font-weight: 200;
+    font-family: hegante, sans-serif;
+    font-weight: 900;
     font-style: normal;
+    /* font-family: 'Marshmallow Script';
+    font-weight: 200;
+    font-style: normal; */
     font-size:36pt;
     color:#038C7F
 }
