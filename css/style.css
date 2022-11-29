@@ -6,7 +6,12 @@
 
 @font-face{
     font-family:'Bauhaus';
-    src:url(./fonts/Bauhaus/BAUHS93.TTF);
+    src:url(./fonts/Bauhaus/BAUHS93.TTF)format('truetype');
+}
+
+@font-face{
+    font-family: 'Milkshake';
+    src:url(./fonts/Milkshake/MILKSHAKE.TTF)format('truetype');
 }
 
 
@@ -31,7 +36,7 @@ article
 /*headings*/
 h1
 {
-    font-family: hegante, Bauhaus, sans-serif;
+    font-family: Millkshake, Bauhaus, sans-serif;
     font-weight: 900;
     font-style: normal;
     /* font-family: 'Marshmallow Script';
@@ -45,7 +50,7 @@ h1
 
 h2
 {
-    font-family: hegante, Bauhaus, sans-serif;
+    font-family: Milkshake, Bauhaus, sans-serif;
     font-weight: 900;
     font-style: normal;
     /* font-family: 'Marshmallow Script';
@@ -56,7 +61,7 @@ h2
 }
 h3
 {
-    font-family: hegante, Bauhaus, sans-serif;
+    font-family: Milkshake, Bauhaus, sans-serif;
     font-weight: 900;
     font-style: normal;
     /* font-family: 'Marshmallow Script';
