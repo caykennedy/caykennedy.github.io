@@ -1,7 +1,7 @@
 
 @font-face{
     font-family:'Franklin Gothic Medium';
-    src:url(./fonts/franklinGothic/FRAMD.TTF);
+    src:url(./fonts/franklinGothic/FRAMD.TTF)format('truetype');
 }
 
 
