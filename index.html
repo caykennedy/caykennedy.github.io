@@ -6,81 +6,83 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>FSCL: Home</title>
         <link rel="Stylesheet" href="./css/style.css">
-        <link rel="" href="https://use.typekit.net/eld4bnh.css">
         <link rel="icon" href="./img/clipart-fruit-cereal-1.png" type="image/x-icon">
+        <script type="text/javascript" src="./js/cerealSpin.js" defer></script>
     </head>
-    <article>
-        <div class="centered">
-            <img src="./img/clipart-fruit-cereal-1.png" alt="our logo">
+    <body>
+        <div class="loadingContainer">
+            <img id="cereal" src="./img/clipart-fruit-cereal-1.png" alt="our logo">
         </div>
-
-        <h1> Freddie's Secret Cereal Lounge</h1>
-        <nav class="dropdown">
-            <ul>
-                <li><a href = "index.html">Home</a></li>
-                <li><a href = "about-us.html">About Us</a></li>
-                <li><a href = "our-menu.html">Our Menu</a></li>
-                <li><a href = "dating.html">Freddie's Secret Dating Sim</a></li>
-            </ul>
-        </nav>
-
-        <div class="gridleft">
-            <aside class="Photos">
-                <img src="./img/cereal.png" alt="A photo of some tasty cereal">
-            </aside>
-            <div class="Paragraphs">
-                <h2>Good Mornin'</h2>
-                <p>We specialize in the experience of cereal as it was always meant to be. We collaborate with local farmers to keep our menu as fresh as possible. You will never be given stale cereal here. Please get in touch if you would like to know more about our pricing, location, and hours.</p>
-                <button onclick="window.location.href='https://www.youtube.com/watch?v=dQw4w9WgXcQ';">Get in touch</button>
-            </div>
-        </div>
-
-        <hr-2></hr-2>
-
-        <div class="gridright">
-            <div class="Paragraphs">
-                <h3>Contemporay Cereals</h3>
-                <p>
-                    Created with love and care wherever cereal comes from. All items are 100% store bought, unmodified, and served fresh.
-                </p>
+        <article>
+            <h1> Freddie's Secret Cereal Lounge</h1>
+            <nav class="dropdown">
                 <ul>
-                    <li>Timeless Style.</li>
-                    <li>Store to Table.</li>
-                    <li>Will Leave You Full.</li>
-                    <li>Completely Real.</li>
-                </ul>                <h6>Handcrafted Just For You</h6>
-                <button onclick="window.location.href='https://en.wikipedia.org/wiki/Cereal';">Come check us out!</button>
+                    <li><a href = "index.html">Home</a></li>
+                    <li><a href = "about-us.html">About Us</a></li>
+                    <li><a href = "our-menu.html">Our Menu</a></li>
+                    <li><a href="cereal-reviews.html">Cereal Reviews</a></li>
+                    <li><a href = "dating.html">Freddie's Secret Dating Sim</a></li>
+                </ul>
+            </nav>
+
+            <div class="gridleft">
+                <aside class="Photos">
+                    <img src="./img/cereal.png" alt="A photo of some tasty cereal">
+                </aside>
+                <div class="Paragraphs">
+                    <h2>Good Mornin'</h2>
+                    <p>We specialize in the experience of cereal as it was always meant to be. We collaborate with local farmers to keep our menu as fresh as possible. You will never be given stale cereal here. Please get in touch if you would like to know more about our pricing, location, and hours.</p>
+                    <button onclick="window.location.href='https://www.youtube.com/watch?v=dQw4w9WgXcQ';">Get in touch</button>
+                </div>
             </div>
-            <aside class="Photos">
-                <img src="./img/bowl_cereal.jpg" alt="Cereal">
-            </aside>
-        </div>
 
-        <div class="gridleft">
-            <aside>
-                <br>
-                <br>
-                <br>
-                <br>
-                <img src="./img/phone.png" alt="an old fashioned phone">
-            </aside>
-            <div class="Paragraphs">
-                <h3>Drop us a Line</h3>
-                <p>Want to make a reservaiton? Talk to our manager? Leave a review? Let us know!</p>
-                <form action="submitted.html">
+            <hr-2></hr-2>
 
-                    <label for="fname">First Name</label>
-                    <input type="text" id="fname" name="firstname" placeholder="Your first name..">
-                
-                    <label for="lname">Last Name</label>
-                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-                
-                    <label for="subject">Your Message</label>
-                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-                    <button onclick="window.location.href='submitted.html';">Submit!</button>
-                </form>
+            <div class="gridright">
+                <div class="Paragraphs">
+                    <h3>Contemporay Cereals</h3>
+                    <p>
+                        Created with love and care wherever cereal comes from. All items are 100% store bought, unmodified, and served fresh.
+                    </p>
+                    <ul>
+                        <li>Timeless Style.</li>
+                        <li>Store to Table.</li>
+                        <li>Will Leave You Full.</li>
+                        <li>Completely Real.</li>
+                    </ul>                <h6>Handcrafted Just For You</h6>
+                    <button onclick="window.location.href='https://en.wikipedia.org/wiki/Cereal';">Come check us out!</button>
+                </div>
+                <aside class="Photos">
+                    <img src="./img/bowl_cereal.jpg" alt="Cereal">
+                </aside>
             </div>
-        </div>
 
-    </article>
+            <div class="gridleft">
+                <aside>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <img src="./img/phone.png" alt="an old fashioned phone">
+                </aside>
+                <div class="Paragraphs">
+                    <h3>Drop us a Line</h3>
+                    <p>Want to make a reservaiton? Talk to our manager? Leave a review? Let us know!</p>
+                    <form action="submitted.html">
+
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your first name..">
+                    
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                    
+                        <label for="subject">Your Message</label>
+                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                        <button onclick="window.location.href='submitted.html';">Submit!</button>
+                    </form>
+                </div>
+            </div>
+
+        </article>
+    </body>
 </html>
