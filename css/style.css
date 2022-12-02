@@ -524,3 +524,52 @@ padding: 20px;
     background: #F2E7DC;
     z-index: 1;
 }
+
+.reviewContainer{
+    width:50vw;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.reviewContainer .gridleft{
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.reviewContainer img{
+    width: 25vw;
+}
+
+.reviewContainer ol{
+    font-size: 18pt;
+}
+
+#peopleContainer{
+    display: flexbox;
+    justify-content: space-evenly;
+    /* grid-template-areas:     
+    "a1.a2.a3"
+    ".a4.a5.";
+    width: 50vw; */
+}
+
+#Phredeigh{
+    width: 30vw;
+}
+
+#Kevin{
+    width: 30vw;
+}
+
+#Leon{
+    width: 30vw;
+}
+
+#Jimothy{
+    width: 30vw;
+}
+
+#Steve{
+    width: 30vw;
+}
