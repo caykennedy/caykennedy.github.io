@@ -2,7 +2,7 @@ let loaderContainer = document.querySelector('.loadingContainer');
 let cereal = document.querySelector('#cereal');
 
 const spinTiming = {
-    duration: 750,
+    duration: 650,
     iterations: 1,
     fill: 'forwards'
 }

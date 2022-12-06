@@ -3,28 +3,28 @@ const json =
     {
         "Name" : "Phredeigh Cereal-Lounge",
         "Profile" : "Phredeigh is the founder and owner of Freddie's Secret Cereal Lounge. He has a degree in Cereology from the University of Kellogg's, and has dedicated his life to his love of cereal.",
-        "imgSrc"  : "",
-        "imgAlt" : "",
+        "imgSrc"  : "./img/clipart-fruit-cereal-1.png",
+        "imgAlt" : "A Bowl of Cereal",
         "cerealRanking" : [
             {
                 "cerealName" : "Frosted Flakes",
-                "review" : ""
+                "review" : "A delectable combination of the classic corn flake with a sugary twist. Flavors the milk and leaves the diner wanting to drink every last drop."
             },
             {
                 "cerealName" : "Honey Nut Cheerios",
-                "review" : ""
+                "review" : "One can never go wrong with Honey Nut Cheerios. These delicious loops were my introduction to the world of cereal, and have a special place in my heart."
             },
             {
                 "cerealName" : "Trix",
-                "review" : ""
+                "review" : "Not just for kids, this cereal is a delightful treat for all ages."
             },
             {
                 "cerealName" : "Cocoa Puffs",
-                "review" : ""
+                "review" : "I am a large fan of cereals that flavor the milk afterwards, and Cocoa Puffs certainly do that."
             },
             {
                 "cerealName" : "Reeses Puffs",
-                "review" : ""
+                "review" : "The peanut butter chocolate flavor with milk is absolutely delectable."
             }
         ]
     },
@@ -36,23 +36,23 @@ const json =
         "cerealRanking" : [
             {
                 "cerealName" : "Honey Bunches of Oats",
-                "review" : "Tasty"
+                "review" : "Although they are not the most healthy, they are pleasantly sweet without quite as much sugar as most cereal."
             },
             {
                 "cerealName" : "Kix",
-                "review" : "Dont worry about it"
+                "review" : "My favorite take on corn flakes, Kix has the same great taste with an interesting texture."
             },
             {
                 "cerealName" : "Special K With Strawberries",
-                "review" : "Fagettaboutit"
+                "review" : "The strawberries are just amazing, quite delicious and healthy at the same time."
             },
             {
                 "cerealName" : "Cheerios",
-                "review" : "Gobagool"
+                "review" : "A timeless classic that nobody can forget, original Cheerios are not too sweet."
             },
             {
                 "cerealName" : "Weetabix",
-                "review" : "Gobble Ghoul"
+                "review" : "This British cereal may be difficult to find in the United States, but it is truly one that everyone should try."
             }
         ]
     },
@@ -64,23 +64,23 @@ const json =
         "cerealRanking" : [
             {
                 "cerealName" : "Fruity Pebbles",
-                "review" : ""
+                "review" : "They taste pretty good!"
             },
             {
                 "cerealName" : "Lucky Charms",
-                "review" : ""
+                "review" : "They keep me going!"
             },
             {
                 "cerealName" : "Frosted Flakes",
-                "review" : ""
+                "review" : "They have plenty of sugar!"
             },
             {
                 "cerealName" : "Frosted Mini Wheats",
-                "review" : ""
+                "review" : "They wake me up in the morning!"
             },
             {
                 "cerealName" : "Captain Crunch Berries",
-                "review" : ""
+                "review" : "They're very crunchy!"
             }
         ]
     },
@@ -92,23 +92,23 @@ const json =
         "cerealRanking" : [
             {
                 "cerealName" : "Captain Crunch Berries",
-                "review" : ""
+                "review" : "I like the crunch."
             },
             {
                 "cerealName" : "Apple Jacks",
-                "review" : ""
+                "review" : "I like the milk flavor."
             },
             {
                 "cerealName" : "Froot Loops",
-                "review" : ""
+                "review" : "I like the fruit."
             },
             {
                 "cerealName" : "Honey Smacks",
-                "review" : ""
+                "review" : "I like the sugar."
             },
             {
                 "cerealName" : "Cinnamon Toast Crunch",
-                "review" : ""
+                "review" : "I like the cinnamon."
             }
         ]
     },
@@ -120,23 +120,23 @@ const json =
         "cerealRanking" : [
             {
                 "cerealName" : "Count Chocula",
-                "review" : ""
+                "review" : "I love the chocolate!"
             },
             {
                 "cerealName" : "Cocoa Puffs",
-                "review" : ""
+                "review" : "Mmmmm choccy milk."
             },
             {
                 "cerealName" : "Chocolate Cheerios",
-                "review" : ""
+                "review" : "Chocolate Tasty."
             },
             {
                 "cerealName" : "Krave",
-                "review" : ""
+                "review" : "Choclatey goodness."
             },
             {
                 "cerealName" : "Cocoa Pebbles",
-                "review" : ""
+                "review" : "Chocolate chocolate chocolate!"
             }
         ]
     }
