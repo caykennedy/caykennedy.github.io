@@ -1,3 +1,10 @@
+let saveButton = document.getElementById('saveImage');
+let resetCanvas = document.getElementById('resetCanvas');
+let canvas = document.querySelector('canvas');
+
+saveButton.addEventListener('click', save);
+resetCanvas.addEventListener('click',reset);
+
 // get canvas 2D context and set him correct size
 var ctx = canvas.getContext('2d');
 resize();
@@ -37,4 +44,18 @@ function draw(e) {
   ctx.lineTo(pos.x, pos.y); // to
 
   ctx.stroke(); // draw it!
+}
+
+function save()
+{
+    const link = document.createElement('a');
+    link.download = 'MyCerealImage.png';
+    link.href = canvas.toDataURL();
+    link.click();
+    link.delete;
+}
+
+function reset()
+{
+    ctx.clearRect(0,0,canvas.width,canvas.height);
 }
