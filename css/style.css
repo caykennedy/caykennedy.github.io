@@ -444,10 +444,9 @@ padding: 20px;
         display:none;
     }
 
-}
-
-@media screen and (max-width: 1900px)
-{
+    form br{
+        display:block;
+    }
 
 }
 
