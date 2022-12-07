@@ -513,14 +513,6 @@ padding: 20px;
     background-image: url("../img/buttonHover.png");
 }
 
-.datingArea{
-    width:75vw;
-    height:45vw;
-    background-color: whitesmoke;
-    margin-left: auto;
-    margin-right: auto;
-
-}
 
 /*loading screen*/
 .loadingContainer{
@@ -581,4 +573,10 @@ padding: 20px;
 
 #Steve{
     width: 30vw;
+}
+
+canvas{
+    width: 75vw;
+    height:auto;
+    background-color: whitesmoke;
 }
